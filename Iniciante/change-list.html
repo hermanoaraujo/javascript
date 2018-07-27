@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mudar - Lista</title>
+	<script type="text/javascript">
+		function addIngrediente(){
+			var ingre = document.getElementById('ingrediente').value;
+			var lista_html = document.getElementById('lista').innerHTML;
+			lista_html = lista_html + "<li>"+ingre+"</li>";
+			document.getElementById('lista').innerHTML = lista_html;
+		}
+	</script>
+</head>
+<body>
+	<h3>Adicionar algo na lista</h3>
+	<input type="text" id="ingrediente">
+	<button onclick="addIngrediente()">Adicionar</button><br><br>
+	<ul id="lista">
+		<li>Item 1</li>
+		<li>Item 2</li>
+	</ul>
+</body>
+</html>

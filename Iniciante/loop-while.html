@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loop</title>
+	<script type="text/javascript">
+		function loop(){
+			var qtd = parseInt(document.getElementById('qtd').value);
+			var x = 1;
+			document.write("Iniciando o loop.. </br></br>");
+			while(x < qtd+1){
+				document.write("Numero: "+x+"</br>");
+				x++;
+			}
+			document.write("</br></br>Loop Finalizado! ");
+		}
+	</script>
+</head>
+<body>
+	<h3>Loop</h3>
+	<h4>Digite quantidade de vezes</h4>
+	<input type="text" id="qtd">
+	<button onclick="loop()">Gerar</button>
+	
+</body>
+</html>
