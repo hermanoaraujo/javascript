@@ -8,6 +8,6 @@
 ----
 ## Categorias
 1. [Iniciante](https://github.com/hermanoaraujo/javascript/tree/master/Iniciante)
-
+* [Projeto jogo caça-niquel](https://github.com/hermanoaraujo/javascript/tree/master/Iniciante/Project%20-%20Game)
 
 ----
